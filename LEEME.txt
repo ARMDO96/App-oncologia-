@@ -1,0 +1,22 @@
+Checklist FNR Mama: app instalable (PWA)
+=========================================
+
+La app tiene que estar publicada en una dirección https para poder instalarse.
+Opción gratuita con GitHub Pages (unos 5 minutos):
+
+1. Entrá a github.com, iniciá sesión y creá un repositorio nuevo, por ejemplo "fnr-mama" (público).
+2. "Add file" > "Upload files": arrastrá TODO el contenido de esta carpeta
+   (index.html, manifest.webmanifest, sw.js y las carpetas fonts/ e icons/). Guardá con "Commit changes".
+3. Settings > Pages > Source: "Deploy from a branch", Branch: main / (root) > Save.
+4. En 1 o 2 minutos queda en https://TU-USUARIO.github.io/fnr-mama/
+
+En el celular Android:
+5. Abrí esa dirección en Chrome > menú ⋮ > "Instalar app" (o "Agregar a pantalla principal").
+6. Queda con ícono propio, abre a pantalla completa y funciona sin conexión.
+   Las marcas se guardan en el teléfono.
+
+APK real (opcional): en pwabuilder.com pegás la dirección de GitHub Pages y
+elegís "Android". Genera un paquete instalable (.apk/.aab) a partir de la misma app.
+
+Para actualizar el contenido: reemplazá index.html en el repositorio y subí el
+número de versión en sw.js (fnr-mama-v1 -> fnr-mama-v2) para que el teléfono lo descargue.

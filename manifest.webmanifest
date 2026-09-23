@@ -1,0 +1,17 @@
+{
+  "name": "Checklist FNR Mama",
+  "short_name": "FNR Mama",
+  "description": "Requisitos de la normativa FNR (agosto 2024) para cobertura de tratamiento sistémico en cáncer de mama.",
+  "lang": "es-UY",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3F5F3",
+  "theme_color": "#2B6A57",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
